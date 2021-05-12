@@ -1,4 +1,4 @@
-package com.easy.code.http.proxy;
+package com.easy.code.http.core.proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -9,14 +9,14 @@ import java.lang.reflect.Method;
  */
 public class EasyHttpProxy<T> implements InvocationHandler {
 
-    private final Class<T> mapperInterface;
+    private final Class<T> easyHttpClientInterface;
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         return null;
     }
 
-    public EasyHttpProxy(Class<T> mapperInterface) {
-        this.mapperInterface = mapperInterface;
+    public EasyHttpProxy(Class<T> easyHttpClientInterface) {
+        this.easyHttpClientInterface = easyHttpClientInterface;
     }
 }

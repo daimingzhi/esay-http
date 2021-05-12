@@ -1,4 +1,4 @@
-package com.easy.code.http.proxy;
+package com.easy.code.http.core.proxy;
 
 /**
  * @author dmz

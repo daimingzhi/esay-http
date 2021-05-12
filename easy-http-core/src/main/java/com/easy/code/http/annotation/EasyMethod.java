@@ -8,7 +8,13 @@ import com.easy.code.http.core.enums.EasyRequestMethod;
  */
 public @interface EasyMethod {
 
+	/**
+	 * 请求方法
+	 */
 	EasyRequestMethod method();
 
-	String url();
+	/**
+	 * 请求路径
+	 */
+	String path();
 }

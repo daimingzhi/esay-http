@@ -6,15 +6,9 @@ package com.easy.code.http.core.enums;
  */
 public enum EasyRequestMethod {
 
-	/**
-	 * HTTP 请求方式
-	 */
-	GET,
-
-	POST,
-
-	PUT,
-
-	DELETE,
+    /**
+     * HTTP 请求方式
+     */
+    GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS, TRACE
 
 }

@@ -6,8 +6,11 @@ package com.easy.code.http.annotation;
  */
 public @interface EasyHttpClient {
 
-	String domain() default "";
+    String value() default "";
 
-	String path() default "";
+    String rootUrl() default "";
 
+    int connectTimeout() default -1;
+
+    int readTimeout() default -1;
 }
